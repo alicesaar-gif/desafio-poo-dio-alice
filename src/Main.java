@@ -7,15 +7,18 @@ import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
-        Curso curso1 = new Curso();
-        curso1.setTitulo("Java Orientado a Objetos");
-        curso1.setDescricao("Aprendendo Abstração, Herança, Encapsulamento e Polimorfismo");
-        curso1.setCargaHoraria(8); 
 
-        Curso curso2 = new Curso();
-        curso2.setTitulo("Collections Framework");
-        curso2.setDescricao("Dominando List, Set e Map");
-        curso2.setCargaHoraria(4);
+Curso curso1 = new Curso();
+curso1.setTitulo("Java Orientado a Objetos");
+curso1.setDescricao("Aprendendo POO");
+curso1.setCargaHoraria(8);
+curso1.setNivel("Avançado"); // Definindo o nível
+
+Curso curso2 = new Curso();
+curso2.setTitulo("Collections Framework");
+curso2.setDescricao("Dominando Lists e Sets");
+curso2.setCargaHoraria(4);
+curso2.setNivel("Básico"); // Definindo o nível
 
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("Mentoria de Carreira");
